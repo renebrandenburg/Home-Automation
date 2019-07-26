@@ -28,13 +28,13 @@ Subsequent  response definitions will only detail the expecte value of the 'data
 		"identifier": "floor-lamp",
 		"name": "Floor lamp",
 		"device_type": "switch",
-		"controller_gateway": "192.1.68.0.2"
+		"controller_gateway": "192.168.0.2"
 	}
 	{
 		"identifier": "samsung-tv",
 		"name": "Living Room tv",
 		"device_type": "tv",
-		"controller_gateway": "192.1.68.0.2"
+		"controller_gateway": "192.168.0.2"
 	}
 ]
 
@@ -61,7 +61,7 @@ If a device with the given identifier already excist, the existing device will b
 		"identifier": "floor-lamp",
 		"name": "Floor lamp",
 		"device_type": "switch",
-		"controller_gateway": "192.1.68.0.2"
+		"controller_gateway": "192.168.0.2"
 	}
 
 '''
@@ -79,7 +79,7 @@ If a device with the given identifier already excist, the existing device will b
 		"identifier": "floor-lamp",
 		"name": "Floor lamp",
 		"device_type": "switch",
-		"controller_gateway": "192.1.68.0.2"
+		"controller_gateway": "192.168.0.2"
 	}
 
 '''
