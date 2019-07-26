@@ -72,7 +72,7 @@ If a device with the given identifier already excist, the existing device will b
 
 **Response**
 - '404 Not Found' if the device does not exist 
-'200 OK' on success
+- '200 OK' on success
 
 '''json 
 	{
@@ -83,5 +83,15 @@ If a device with the given identifier already excist, the existing device will b
 	}
 
 '''
+
+## Delete a device
+
+'DELETE /devices/<identifier>'
+
+**Response**
+
+- '404 Not Found' if the device does not exist
+- '204 No Content' on success
+
 
 
